@@ -14,7 +14,7 @@ esphome:
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
-    name: enviro-sensor-template
+    name: bobbyschultz.enviro-sensor-template
     version: "1.0"
 
 # To be able to get logs from the device via serial and api.
