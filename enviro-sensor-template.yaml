@@ -61,9 +61,9 @@ sensor:
     temperature:
       name: "Temperature"
       filters:
-        - offset: -1.0
+        - offset: -2.8
     humidity:
       name: "Humidity"
       filters:
         - offset: -1.0
-    update_interval: 30s
+    update_interval: 10s
