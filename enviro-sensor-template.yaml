@@ -34,7 +34,7 @@ ota:
 
 # This should point to the public location of this yaml file.
 dashboard_import:
-  package_import_url: github://bobbyschultz/enviro-sensor/enviro-sensor-template.yaml
+  package_import_url: github://bobbyschultz/enviro-sensor/enviro-sensor-template.yaml@main
   import_full_config: false # or true
 
 wifi:
