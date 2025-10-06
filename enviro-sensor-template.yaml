@@ -22,6 +22,8 @@ logger:
 
 # API is a requirement of the dashboard import.
 api:
+  encryption:
+    key: "EZ1ZEBjHJ/O/tCwE1CPlciMl7HPXZXt2IvM2PgQAb9w="
 
 # OTA is required for Over-the-Air updating
 ota:
@@ -55,6 +57,10 @@ sensor:
     pin: GPIO2
     temperature:
       name: "Temperature"
+      filters:
+        -offset: -8.0
     humidity:
       name: "Humidity"
+      filters:
+        -offset: -2.0
     update_interval: 30s
