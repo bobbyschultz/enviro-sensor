@@ -15,7 +15,7 @@ esphome:
   # configuration and updates.
   project:
     name: bobbyschultz.enviro-sensor-template
-    version: "1.06"
+    version: "1.07"
 
 esp8266:
   board: esp01_1m
@@ -68,7 +68,7 @@ sensor:
     temperature:
       name: "Temperature"
       filters:
-        - offset: 0
+        - offset: -3.0
     humidity:
       name: "Humidity"
       filters:
