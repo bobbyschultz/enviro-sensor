@@ -15,7 +15,7 @@ esphome:
   # configuration and updates.
   project:
     name: bobbyschultz.enviro-sensor-template
-    version: "1.03"
+    version: "1.04"
 
 esp8266:
   board: esp01_1m
@@ -33,9 +33,9 @@ ota:
   platform: esphome
 
 # This should point to the public location of this yaml file.
-dashboard_import:
-  package_import_url: github://bobbyschultz/enviro-sensor/enviro-sensor-template.yaml@main
-  import_full_config: false # or true
+#dashboard_import:
+#  package_import_url: github://bobbyschultz/enviro-sensor/enviro-sensor-template.yaml@main
+#  import_full_config: false # or true
 
 packages:
   remote_package_files:
