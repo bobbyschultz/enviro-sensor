@@ -4,7 +4,7 @@ sensor:
     temperature:
       name: "Temperature"
       filters:
-        - offset: -30.0
+        - offset: 0.0
     humidity:
       name: "Humidity"
       filters:
